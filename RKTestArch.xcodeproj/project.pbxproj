@@ -24,6 +24,10 @@
 		21186030271FC53700A1812B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118602E271FC53600A1812B /* libcrypto.a */; };
 		21186031271FC53700A1812B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118602F271FC53600A1812B /* libssl.a */; };
 		21186035271FC62400A1812B /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21186034271FC62400A1812B /* mapapi.bundle */; };
+		2118603B271FC74500A1812B /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186037271FC74500A1812B /* BaiduMapAPI_Utils.framework */; };
+		2118603C271FC74500A1812B /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186038271FC74500A1812B /* BaiduMapAPI_Search.framework */; };
+		2118603D271FC74500A1812B /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186039271FC74500A1812B /* BaiduMapAPI_Base.framework */; };
+		2118603E271FC74500A1812B /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118603A271FC74500A1812B /* BaiduMapAPI_Map.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		2118602E271FC53600A1812B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = RKTestArch/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
 		2118602F271FC53600A1812B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = RKTestArch/thirdlibs/libssl.a; sourceTree = "<group>"; };
 		21186034271FC62400A1812B /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		21186037271FC74500A1812B /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = RKTestArch/thirdlibs/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		21186038271FC74500A1812B /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = RKTestArch/thirdlibs/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		21186039271FC74500A1812B /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = RKTestArch/thirdlibs/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		2118603A271FC74500A1812B /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = RKTestArch/thirdlibs/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2118603B271FC74500A1812B /* BaiduMapAPI_Utils.framework in Frameworks */,
+				2118603C271FC74500A1812B /* BaiduMapAPI_Search.framework in Frameworks */,
+				2118603D271FC74500A1812B /* BaiduMapAPI_Base.framework in Frameworks */,
+				2118603E271FC74500A1812B /* BaiduMapAPI_Map.framework in Frameworks */,
 				21186030271FC53700A1812B /* libcrypto.a in Frameworks */,
 				21186031271FC53700A1812B /* libssl.a in Frameworks */,
 				21186021271FBB2F00A1812B /* libc++.tbd in Frameworks */,
@@ -108,6 +120,10 @@
 		2118600E271FB8B500A1812B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21186039271FC74500A1812B /* BaiduMapAPI_Base.framework */,
+				2118603A271FC74500A1812B /* BaiduMapAPI_Map.framework */,
+				21186038271FC74500A1812B /* BaiduMapAPI_Search.framework */,
+				21186037271FC74500A1812B /* BaiduMapAPI_Utils.framework */,
 				2118602E271FC53600A1812B /* libcrypto.a */,
 				2118602F271FC53600A1812B /* libssl.a */,
 				21186020271FBB2F00A1812B /* libc++.tbd */,
@@ -331,6 +347,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RMGLZJJ6JS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RKTestArch/thirdlibs",
+				);
 				INFOPLIST_FILE = RKTestArch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -354,6 +374,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RMGLZJJ6JS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RKTestArch/thirdlibs",
+				);
 				INFOPLIST_FILE = RKTestArch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
