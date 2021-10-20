@@ -336,6 +336,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/RKTestArch/thirdlibs",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beedroid.rocket.RKTestArch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,6 +359,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/RKTestArch/thirdlibs",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.beedroid.rocket.RKTestArch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
