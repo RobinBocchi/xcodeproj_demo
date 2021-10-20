@@ -13,6 +13,11 @@
 		21185FFF271FADC400A1812B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21185FFE271FADC400A1812B /* main.m */; };
 		2118600B271FB1A900A1812B /* RKTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2118600A271FB1A900A1812B /* RKTestViewController.mm */; };
 		21186010271FB8B500A1812B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118600F271FB8B500A1812B /* CoreLocation.framework */; };
+		21186012271FB99F00A1812B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186011271FB99F00A1812B /* QuartzCore.framework */; };
+		21186014271FB9C000A1812B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186013271FB9C000A1812B /* OpenGLES.framework */; };
+		21186016271FB9C800A1812B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186015271FB9C800A1812B /* SystemConfiguration.framework */; };
+		21186018271FB9D100A1812B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186017271FB9D100A1812B /* CoreGraphics.framework */; };
+		2118601A271FB9D800A1812B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186019271FB9D800A1812B /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		21186009271FB1A900A1812B /* RKTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKTestViewController.h; sourceTree = "<group>"; };
 		2118600A271FB1A900A1812B /* RKTestViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RKTestViewController.mm; sourceTree = "<group>"; };
 		2118600F271FB8B500A1812B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21186011271FB99F00A1812B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		21186013271FB9C000A1812B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		21186015271FB9C800A1812B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		21186017271FB9D100A1812B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21186019271FB9D800A1812B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2118601A271FB9D800A1812B /* Security.framework in Frameworks */,
+				21186018271FB9D100A1812B /* CoreGraphics.framework in Frameworks */,
+				21186016271FB9C800A1812B /* SystemConfiguration.framework in Frameworks */,
+				21186014271FB9C000A1812B /* OpenGLES.framework in Frameworks */,
+				21186012271FB99F00A1812B /* QuartzCore.framework in Frameworks */,
 				21186010271FB8B500A1812B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +90,11 @@
 		2118600E271FB8B500A1812B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21186019271FB9D800A1812B /* Security.framework */,
+				21186017271FB9D100A1812B /* CoreGraphics.framework */,
+				21186015271FB9C800A1812B /* SystemConfiguration.framework */,
+				21186013271FB9C000A1812B /* OpenGLES.framework */,
+				21186011271FB99F00A1812B /* QuartzCore.framework */,
 				2118600F271FB8B500A1812B /* CoreLocation.framework */,
 			);
 			name = Frameworks;
