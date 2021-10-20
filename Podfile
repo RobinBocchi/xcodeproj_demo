@@ -6,5 +6,6 @@ target 'RKTestArch' do
   use_frameworks!
 
   # Pods for RKTestArch
+  pod 'BaiduMapKit' #百度地图SDK
 
 end

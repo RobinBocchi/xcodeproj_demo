@@ -12,9 +12,11 @@
 		21185FFC271FADC400A1812B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21185FFA271FADC400A1812B /* LaunchScreen.storyboard */; };
 		21185FFF271FADC400A1812B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21185FFE271FADC400A1812B /* main.m */; };
 		2118600B271FB1A900A1812B /* RKTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2118600A271FB1A900A1812B /* RKTestViewController.mm */; };
+		82A8F9D5D8CDF365C527ECE4 /* Pods_RKTestArch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3F6C064CE57638972A66C1 /* Pods_RKTestArch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00E0C329393C321FE677AFAF /* Pods-RKTestArch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKTestArch.debug.xcconfig"; path = "Target Support Files/Pods-RKTestArch/Pods-RKTestArch.debug.xcconfig"; sourceTree = "<group>"; };
 		21185FE9271FADC000A1812B /* RKTestArch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKTestArch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21185FEC271FADC000A1812B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21185FED271FADC000A1812B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		21185FFE271FADC400A1812B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21186009271FB1A900A1812B /* RKTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKTestViewController.h; sourceTree = "<group>"; };
 		2118600A271FB1A900A1812B /* RKTestViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RKTestViewController.mm; sourceTree = "<group>"; };
+		4FD57B1250FF66FDA560147F /* Pods-RKTestArch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKTestArch.release.xcconfig"; path = "Target Support Files/Pods-RKTestArch/Pods-RKTestArch.release.xcconfig"; sourceTree = "<group>"; };
+		9D3F6C064CE57638972A66C1 /* Pods_RKTestArch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKTestArch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A8F9D5D8CDF365C527ECE4 /* Pods_RKTestArch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				21185FEB271FADC000A1812B /* RKTestArch */,
 				21185FEA271FADC000A1812B /* Products */,
+				E94158A6019E27A2A1054E57 /* Pods */,
+				5F1C8DDEFCB85E332F77DDB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +75,24 @@
 			path = RKTestArch;
 			sourceTree = "<group>";
 		};
+		5F1C8DDEFCB85E332F77DDB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3F6C064CE57638972A66C1 /* Pods_RKTestArch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E94158A6019E27A2A1054E57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00E0C329393C321FE677AFAF /* Pods-RKTestArch.debug.xcconfig */,
+				4FD57B1250FF66FDA560147F /* Pods-RKTestArch.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -75,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21186002271FADC400A1812B /* Build configuration list for PBXNativeTarget "RKTestArch" */;
 			buildPhases = (
+				316FBFF88BA096AAE0E49DC1 /* [CP] Check Pods Manifest.lock */,
 				21185FE5271FADC000A1812B /* Sources */,
 				21185FE6271FADC000A1812B /* Frameworks */,
 				21185FE7271FADC000A1812B /* Resources */,
+				08E55EBC7469C8EF673DD6DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E55EBC7469C8EF673DD6DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RKTestArch/Pods-RKTestArch-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RKTestArch/Pods-RKTestArch-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RKTestArch/Pods-RKTestArch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316FBFF88BA096AAE0E49DC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RKTestArch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21185FE5271FADC000A1812B /* Sources */ = {
@@ -270,6 +339,7 @@
 		};
 		21186003271FADC400A1812B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E0C329393C321FE677AFAF /* Pods-RKTestArch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -288,6 +358,7 @@
 		};
 		21186004271FADC400A1812B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD57B1250FF66FDA560147F /* Pods-RKTestArch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
