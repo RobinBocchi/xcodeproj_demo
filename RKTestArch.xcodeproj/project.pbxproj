@@ -11,7 +11,7 @@
 		21185FF9271FADC400A1812B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21185FF8271FADC400A1812B /* Assets.xcassets */; };
 		21185FFC271FADC400A1812B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21185FFA271FADC400A1812B /* LaunchScreen.storyboard */; };
 		21185FFF271FADC400A1812B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21185FFE271FADC400A1812B /* main.m */; };
-		2118600B271FB1A900A1812B /* RKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118600A271FB1A900A1812B /* RKTestViewController.m */; };
+		2118600B271FB1A900A1812B /* RKTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2118600A271FB1A900A1812B /* RKTestViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		21185FFD271FADC400A1812B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21185FFE271FADC400A1812B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21186009271FB1A900A1812B /* RKTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKTestViewController.h; sourceTree = "<group>"; };
-		2118600A271FB1A900A1812B /* RKTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKTestViewController.m; sourceTree = "<group>"; };
+		2118600A271FB1A900A1812B /* RKTestViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RKTestViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				21185FEC271FADC000A1812B /* AppDelegate.h */,
 				21185FED271FADC000A1812B /* AppDelegate.m */,
 				21186009271FB1A900A1812B /* RKTestViewController.h */,
-				2118600A271FB1A900A1812B /* RKTestViewController.m */,
+				2118600A271FB1A900A1812B /* RKTestViewController.mm */,
 				21185FF8271FADC400A1812B /* Assets.xcassets */,
 				21185FFA271FADC400A1812B /* LaunchScreen.storyboard */,
 				21185FFD271FADC400A1812B /* Info.plist */,
@@ -137,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21185FEE271FADC000A1812B /* AppDelegate.m in Sources */,
-				2118600B271FB1A900A1812B /* RKTestViewController.m in Sources */,
+				2118600B271FB1A900A1812B /* RKTestViewController.mm in Sources */,
 				21185FFF271FADC400A1812B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
