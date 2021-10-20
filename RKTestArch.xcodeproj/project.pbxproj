@@ -21,6 +21,8 @@
 		2118601C271FBAA900A1812B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118601B271FBAA900A1812B /* libsqlite3.0.tbd */; };
 		2118601F271FBAB200A1812B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118601E271FBAB200A1812B /* CoreTelephony.framework */; };
 		21186021271FBB2F00A1812B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186020271FBB2F00A1812B /* libc++.tbd */; };
+		21186030271FC53700A1812B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118602E271FC53600A1812B /* libcrypto.a */; };
+		21186031271FC53700A1812B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118602F271FC53600A1812B /* libssl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		2118601B271FBAA900A1812B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		2118601E271FBAB200A1812B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		21186020271FBB2F00A1812B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2118602E271FC53600A1812B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = RKTestArch/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		2118602F271FC53600A1812B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = RKTestArch/thirdlibs/libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21186030271FC53700A1812B /* libcrypto.a in Frameworks */,
+				21186031271FC53700A1812B /* libssl.a in Frameworks */,
 				21186021271FBB2F00A1812B /* libc++.tbd in Frameworks */,
 				2118601F271FBAB200A1812B /* CoreTelephony.framework in Frameworks */,
 				2118601C271FBAA900A1812B /* libsqlite3.0.tbd in Frameworks */,
@@ -99,6 +105,8 @@
 		2118600E271FB8B500A1812B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2118602E271FC53600A1812B /* libcrypto.a */,
+				2118602F271FC53600A1812B /* libssl.a */,
 				21186020271FBB2F00A1812B /* libc++.tbd */,
 				2118601E271FBAB200A1812B /* CoreTelephony.framework */,
 				2118601B271FBAA900A1812B /* libsqlite3.0.tbd */,
@@ -324,6 +332,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RKTestArch/thirdlibs",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beedroid.rocket.RKTestArch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,6 +353,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RKTestArch/thirdlibs",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beedroid.rocket.RKTestArch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
