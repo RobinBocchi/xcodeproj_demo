@@ -23,6 +23,7 @@
 		21186021271FBB2F00A1812B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186020271FBB2F00A1812B /* libc++.tbd */; };
 		21186030271FC53700A1812B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118602E271FC53600A1812B /* libcrypto.a */; };
 		21186031271FC53700A1812B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118602F271FC53600A1812B /* libssl.a */; };
+		21186035271FC62400A1812B /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21186034271FC62400A1812B /* mapapi.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		21186020271FBB2F00A1812B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2118602E271FC53600A1812B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = RKTestArch/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
 		2118602F271FC53600A1812B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = RKTestArch/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		21186034271FC62400A1812B /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		21185FEB271FADC000A1812B /* RKTestArch */ = {
 			isa = PBXGroup;
 			children = (
+				21186034271FC62400A1812B /* mapapi.bundle */,
 				21185FEC271FADC000A1812B /* AppDelegate.h */,
 				21185FED271FADC000A1812B /* AppDelegate.m */,
 				21186009271FB1A900A1812B /* RKTestViewController.h */,
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21186035271FC62400A1812B /* mapapi.bundle in Resources */,
 				21185FFC271FADC400A1812B /* LaunchScreen.storyboard in Resources */,
 				21185FF9271FADC400A1812B /* Assets.xcassets in Resources */,
 			);
