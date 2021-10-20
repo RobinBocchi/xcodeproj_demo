@@ -28,6 +28,8 @@
 		2118603C271FC74500A1812B /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186038271FC74500A1812B /* BaiduMapAPI_Search.framework */; };
 		2118603D271FC74500A1812B /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186039271FC74500A1812B /* BaiduMapAPI_Base.framework */; };
 		2118603E271FC74500A1812B /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118603A271FC74500A1812B /* BaiduMapAPI_Map.framework */; };
+		21186053271FD0B200A1812B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2118604C271FD06B00A1812B /* libz.tbd */; };
+		21186056271FD0BC00A1812B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21186040271FCF5300A1812B /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		21186038271FC74500A1812B /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = RKTestArch/thirdlibs/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
 		21186039271FC74500A1812B /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = RKTestArch/thirdlibs/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		2118603A271FC74500A1812B /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = RKTestArch/thirdlibs/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		21186040271FCF5300A1812B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2118604C271FD06B00A1812B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21186056271FD0BC00A1812B /* Accelerate.framework in Frameworks */,
+				21186053271FD0B200A1812B /* libz.tbd in Frameworks */,
 				2118603B271FC74500A1812B /* BaiduMapAPI_Utils.framework in Frameworks */,
 				2118603C271FC74500A1812B /* BaiduMapAPI_Search.framework in Frameworks */,
 				2118603D271FC74500A1812B /* BaiduMapAPI_Base.framework in Frameworks */,
@@ -120,6 +126,8 @@
 		2118600E271FB8B500A1812B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2118604C271FD06B00A1812B /* libz.tbd */,
+				21186040271FCF5300A1812B /* Accelerate.framework */,
 				21186039271FC74500A1812B /* BaiduMapAPI_Base.framework */,
 				2118603A271FC74500A1812B /* BaiduMapAPI_Map.framework */,
 				21186038271FC74500A1812B /* BaiduMapAPI_Search.framework */,
